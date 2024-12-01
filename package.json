@@ -1,6 +1,6 @@
 {
   "name": "nestjs-auth0-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A reusable NestJS authentication module for Auth0.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
