@@ -119,6 +119,10 @@ return this.appService.getHello();
 In most cases, you won't need this. It is only exported because you might want to extend it for more specific cases that aren't currently covered by this package.
 Feel free to reach out to me if you want to see more customization regarding this!
 
+# Demo repository
+
+If you want, you can check out my [demo repository](https://github.com/rodrigocqb/nestjs-auth0-module-example) so you can see the integration with the package by yourself. It has just the base NestJS dependencies and the nestjs-auth0-module package.
+
 # License
 
 This package is [MIT licensed](https://github.com/rodrigocqb/nestjs-auth0-module/blob/main/LICENSE)
