@@ -1,0 +1,4 @@
+src/                # Exclude TypeScript source files
+node_modules/       # Dependency directory
+*.log               # Log files
+*.ts                # TypeScript source files

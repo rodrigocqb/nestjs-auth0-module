@@ -1,0 +1,38 @@
+{
+  "name": "nestjs-auth0-module",
+  "version": "1.0.0",
+  "description": "A reusable NestJS authentication module for Auth0.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "nestjs",
+    "authentication",
+    "jwt",
+    "auth",
+    "auth0",
+    "authorization",
+    "permissions",
+    "scope",
+    "guard"
+  ],
+  "author": "rodrigocqb <rodrigocortibarros@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@nestjs/passport": "^10.0.3",
+    "jwks-rsa": "^3.1.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
