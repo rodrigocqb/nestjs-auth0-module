@@ -2,6 +2,10 @@
   "name": "nestjs-auth0-module",
   "version": "1.0.3",
   "description": "A reusable NestJS authentication module for Auth0.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rodrigocqb/nestjs-auth0-module"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
